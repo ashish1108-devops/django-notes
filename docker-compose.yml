@@ -1,0 +1,6 @@
+version : "3.3"
+services :
+web :
+  image : ashishgarg1108/my-django:latest
+  ports : 
+     - "8000:8000"
